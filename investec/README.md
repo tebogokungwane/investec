@@ -8,7 +8,6 @@ Investec Assignment
 # Project Title
 ```
 https://github.com/tebogokungwane/investec.git
-
 ### Prerequisites
 
 The things you need before installing the software.
@@ -28,4 +27,4 @@ A step by step guide that will tell you how to get the development environment u
 
 ### Branches
 
-* Master:
+* main
