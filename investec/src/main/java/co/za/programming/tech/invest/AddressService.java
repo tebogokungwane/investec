@@ -19,7 +19,6 @@ public class AddressService {
         try {
             List<Address> addresses = readAddressesFromFile(fileName);
 
-            // pretty print all addresses
             System.out.println("All Addresses:");
             for (Address address : addresses) {
                 System.out.println(prettyPrintAddress(address));
@@ -42,15 +41,6 @@ public class AddressService {
 
     }
 
-
-    /**
-     * Read list of addresses from a JSON file
-     *
-     * @param fileName name of JSON file
-     * @return list of Address objects
-     * @throws IOException
-     * @throws JSONException
-     */
     public static List<Address> readAddressesFromFile(String fileName) throws IOException, JSONException {
         String content = new String(Files.readAllBytes(Paths.get(fileName)));
         JSONArray json = new JSONArray(content);

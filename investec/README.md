@@ -13,7 +13,7 @@ https://github.com/tebogokungwane/investec.git
 The things you need before installing the software.
 
 * mvn
-* Java 8
+* Java 17
 
 ### Installation
 

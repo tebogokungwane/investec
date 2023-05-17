@@ -35,14 +35,6 @@ public class AddressPrinter {
         }
     }
 
-//    public  void printAddressesByType(List<Address> addresses, String typeCode) {
-//        for (Address address : addresses) {
-//            if (address.getType() != null && typeCode.equals(address.getType().getCode())) {
-//                System.out.println(prettyPrintAddress(address));
-//            }
-//        }
-//    }
-
     public  void validateAllAddresses(List<Address> addresses) {
         AddressValidator validator = new AddressValidator();
         for (Address address : addresses) {

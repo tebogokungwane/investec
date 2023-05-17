@@ -30,9 +30,6 @@ public class Address {
         return type;
     }
 
-//    public void setType(AddressType type) {
-//        this.type = type;
-//    }
 
     public AddressLineDetail getAddressLineDetail() {
         return addressLineDetail;
